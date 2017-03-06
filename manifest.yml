@@ -1,0 +1,12 @@
+---
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: iot4esimulationenginex
+  host: iot4esimulationenginex
+  disk_quota: 1024M
+  buildpack: sdk-for-nodejs
+  services:
+  - IoT for Electronics DB
